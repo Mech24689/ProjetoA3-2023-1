@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/TelaLogin.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Tela de login</h1>
-    <button class="acessar">entrar</button>
+    <div class="background-login">
+        <div class="filter"></div>
+        <video src="video/background-login.mp4" autoplay loop></video>
+    </div>
+
+    <div class="container">
+        <h1>Tela de login</h1>
+
+        <div class="areaLogin">
+            <div class="areatext">
+                <h1 id="titleLogin">Login</h1>
+                <input type="text" name="" id="login">
+            </div>
+
+            <div class="areaText">
+                <h1 id="titleSenha">Senha</h1>
+                <input type="password" id="password">
+            </div>
+        </div>
+
+        <button class="acessar">entrar</button>
+    </div>
     <script src="js/login.js"></script>
 </body>
 </html>
