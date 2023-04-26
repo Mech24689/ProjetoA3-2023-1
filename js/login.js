@@ -8,7 +8,6 @@ btnAcessar.addEventListener('click', ()=>{
     inputLogin.addEventListener('focus', ()=>{
         titleLogin.style.boxShadow = '0 0 10px 3px black, inset 0 0 10px 3px black'
         titleSenha.style.boxShadow = 'none'
-        console.log(document.hasFocus())
         })
     
     inputSenha.addEventListener('focus', ()=>{
