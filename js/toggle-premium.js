@@ -1,23 +1,34 @@
 btnPremium = document.querySelector('.premium')
 btnConsulta = document.querySelector('.comum')
 btnSair = document.querySelector('.sair')
+key = 'tipo da conta'
+tipo = localStorage.getItem(key)
 
 btnPremium.addEventListener('click', ()=>{
-    btnPremium.classList.toggle('hide')
-    btnConsulta.classList.toggle('hide')
-    btnSair.classList.toggle('hide')
-    window.open('telaLogin.html')
+    localStorage.setItem(key, 'visitante')
+    window.location.href = 'telaLogin.html'
 })
 
 btnConsulta.addEventListener('click', ()=>{
-    window.open('telaConsultas.html')
+    window.open = 'telaConsultas.html'
 })
 
 btnSair.addEventListener('click', ()=>{
-    btnPremium.classList.toggle('hide')
-    btnConsulta.classList.toggle('hide')
-    btnSair.classList.toggle('hide')
+    localStorage.setItem(key, 'visitante')
+    window.location.reload()
 })
+
+if(tipo == 'visitante'){
+    btnPremium.style.display = 'block'
+    btnConsulta.style.display = 'none'
+    btnSair.style.display = 'none'
+}
+
+if(tipo == 'premium'){
+    btnPremium.style.display = 'none'
+    btnConsulta.style.display = 'block'
+    btnSair.style.display = 'block'
+}
 
 
 // btnPremium.addEventListener('click', ()=>{  
