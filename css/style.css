@@ -42,6 +42,8 @@ body{
     font-size: 1em;
     text-transform: uppercase;
     box-shadow: 3px 3px 10px 2px #111;
+    text-decoration: none;
+    color: #111;
 }
 
 #navbar ul a:hover{

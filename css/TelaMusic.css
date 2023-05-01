@@ -47,7 +47,34 @@ img{
     opacity: 80%;
 }
 
-#titleTela{
+.menuMusic{
+    position: absolute;
     display: flex;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 20%;
+    right: 15px;
+    height: 60%;
+    gap: 10px;
+    width: 8%;
+}
+
+.menuMusic button{
+    width: 100%;
+    height: 14%;
+    opacity: 50%;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 500ms;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+.menuMusic button:hover{
+    opacity: 100%;
+    cursor: pointer;
+    transform: scale(1.1);
 }

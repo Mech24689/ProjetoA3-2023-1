@@ -10,7 +10,7 @@ btnPremium.addEventListener('click', ()=>{
 })
 
 btnConsulta.addEventListener('click', ()=>{
-    window.open = 'telaConsultas.html'
+    window.location.href = 'telaConsultas.html'
 })
 
 btnSair.addEventListener('click', ()=>{
