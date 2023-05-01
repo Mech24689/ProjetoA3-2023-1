@@ -17,6 +17,7 @@ idSound = 0
 
 sounds[idSound].play()
 background.src = fundo[idSound]
+btn1.style.opacity = '100'
 
 sounds[idSound].addEventListener('ended', function() {
     this.currentTime = 0;
@@ -28,6 +29,12 @@ btnVoltar.addEventListener('click', ()=>{
 })
 
 btn1.addEventListener('click', ()=>{
+    btn1.style.opacity = '100'
+    btn2.style.opacity = '50%'
+    btn3.style.opacity = '50%'
+    btn4.style.opacity = '50%'
+    btn5.style.opacity = '50%'
+
     sounds[idSound].pause()
     idSound = 0
     sounds[idSound].currentTime = 0
@@ -41,6 +48,12 @@ btn1.addEventListener('click', ()=>{
 })
 
 btn2.addEventListener('click', ()=>{
+    btn1.style.opacity = '50%'
+    btn2.style.opacity = '100'
+    btn3.style.opacity = '50%'
+    btn4.style.opacity = '50%'
+    btn5.style.opacity = '50%'
+
     sounds[idSound].pause()
     idSound = 1
     sounds[idSound].currentTime = 0
@@ -54,6 +67,12 @@ btn2.addEventListener('click', ()=>{
 })
 
 btn3.addEventListener('click', ()=>{
+    btn1.style.opacity = '50%'
+    btn2.style.opacity = '50%'
+    btn3.style.opacity = '100'
+    btn4.style.opacity = '50%'
+    btn5.style.opacity = '50%'
+
     sounds[idSound].pause()
     idSound = 2
     sounds[idSound].currentTime = 0
@@ -67,6 +86,12 @@ btn3.addEventListener('click', ()=>{
 })
 
 btn4.addEventListener('click', ()=>{
+    btn1.style.opacity = '50%'
+    btn2.style.opacity = '50%'
+    btn3.style.opacity = '50%'
+    btn4.style.opacity = '100'
+    btn5.style.opacity = '50%'
+
     sounds[idSound].pause()
     idSound = 3
     sounds[idSound].currentTime = 0
@@ -80,6 +105,12 @@ btn4.addEventListener('click', ()=>{
 })
 
 btn5.addEventListener('click', ()=>{
+    btn1.style.opacity = '50%'
+    btn2.style.opacity = '50%'
+    btn3.style.opacity = '50%'
+    btn4.style.opacity = '50%'
+    btn5.style.opacity = '100'
+
     sounds[idSound].pause()
     idSound = 4
     sounds[idSound].currentTime = 0
