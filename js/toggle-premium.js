@@ -4,6 +4,12 @@ btnSair = document.querySelector('.sair')
 key = 'tipo da conta'
 tipo = localStorage.getItem(key)
 
+if(!localStorage.getItem(key)){
+    localStorage.setItem(key, 'visitante')
+    window.location.reload()
+}
+
+
 btnPremium.addEventListener('click', ()=>{
     localStorage.setItem(key, 'visitante')
     window.location.href = 'telaLogin.html'
