@@ -9,6 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Varela Round', sans-serif;
 }
 
 /*estilizando o background*/
