@@ -121,7 +121,7 @@ body{
 #section1{
     background-color: #86B6FF;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -155,7 +155,7 @@ body{
 #section2{
     padding-top: 50px;
     height: 150vh;
-    background-color: teal;
+    background-image: linear-gradient(#F1F1F1,#6AD0FA, #3DC4FD);
     display: flex;
     flex-direction: column;
     justify-content: center;
