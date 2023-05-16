@@ -22,9 +22,13 @@ nav{
     height: 70px;
 }
 
-nav button{
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 70%;
     width: 8%;
+    text-decoration: none;
     font-size: 120%;
     background-color: #222;
     opacity: 50%;
@@ -34,7 +38,7 @@ nav button{
     transition: 500ms;
 }
 
-nav button:hover{
+nav a:hover{
     opacity: 100%;
     cursor: pointer;
     transform: scale(1.1);
