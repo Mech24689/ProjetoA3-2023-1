@@ -8,11 +8,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/TelaConsultas.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>tela de consulta</h1>
-    <button class="btn-voltar">tela inicial</button>
+    <nav>
+        <button>voltar</button>
+        <h1>Marque sua consulta.</h1>
+    </nav>
+    
+    <input type="text" id="filter" placeholder="Filtre por nome ou especialidade.">
+    
+    <section id="areaConsultas">
+        <div class="cards">
+            <img src="img/img-medico.jpg" alt="">
+            <p class="nomeMedico">Nome: medico 1</p>
+            <p class="areaMedico">Especialidade: psicologo</p>
+            <p class="horario">Periodo: Noite</p>
+        </div>
+
+        <div class="cards">
+            <img src="img/img-medico.jpg" alt="">
+            <p class="nomeMedico">Nome: medico 2</p>
+            <p class="areaMedico">Especialidade: psicologo</p>
+            <p class="horario">Periodo: Tarde</p>
+        </div>
+
+        <div class="cards">
+            <img src="img/img-medico.jpg" alt="">
+            <p class="nomeMedico">Nome: medico 3</p>
+            <p class="areaMedico">Especialidade: psicologo</p>
+            <p class="horario">Periodo: Tarde</p>
+        </div>
+
+        <div class="cards">
+            <img src="img/img-medico.jpg" alt="">
+            <p class="nomeMedico">Nome: medico 4</p>
+            <p class="areaMedico">Especialidade: psicologo</p>
+            <p class="horario">Periodo: Manhã</p>
+        </div>
+    </section>
+
     <script src="js/consulta.js"></script>
 </body>
 </html>
