@@ -22,13 +22,12 @@ nav{
     height: 70px;
 }
 
-nav a{
+nav .btn-voltar{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 70%;
     width: 8%;
-    text-decoration: none;
     font-size: 120%;
     background-color: #222;
     opacity: 50%;
@@ -38,7 +37,7 @@ nav a{
     transition: 500ms;
 }
 
-nav a:hover{
+nav .btn-voltar:hover{
     opacity: 100%;
     cursor: pointer;
     transform: scale(1.1);
