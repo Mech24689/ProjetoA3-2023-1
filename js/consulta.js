@@ -68,8 +68,8 @@ btnVoltar.addEventListener('click', ()=>{
 
 //sistema de filtragem
 textFilter.addEventListener('input', ()=>{
+    //for que pega um card por vez
     for(let card of cards){
-        console.log(card)
         especialidade = card.querySelector('.areaMedico').innerText.toLowerCase()
         filter = textFilter.value.toLowerCase()
         

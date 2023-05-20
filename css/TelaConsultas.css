@@ -7,7 +7,14 @@
 body{
     height: 100vh;
     font-family: 'Varela Round', sans-serif;
-    background-color: teal;
+    background-image: teal;
+}
+
+#background{
+    z-index: -10;
+    position: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 /* estilizando o navbar */
@@ -103,14 +110,14 @@ nav h1{
     width: 40%;
     height: 20%;
     border-radius: 10px;
-    background-color: rgba(255, 166, 0, 0.712);
+    background-color: #55555581;
     margin-bottom: 5%;
     transition: 500ms;
 }
 
 .cards:hover{
     transform: scale(1.1);
-    background-color: orange;
+    background-color: #555555cb;
     cursor: pointer;
 }
 
