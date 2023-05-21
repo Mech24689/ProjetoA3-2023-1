@@ -280,3 +280,58 @@ body{
     background-color: gray;
     color: black;
 }
+
+/* Estilizando a section 3 */
+
+#section3{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    background-image: linear-gradient(45deg, #111, #777);
+}
+
+#areaTitle-section3{
+    text-shadow: 1px 1px 6px #111;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 170%;
+    text-transform: uppercase;
+}
+
+#areaFerramentas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    width: 75%;
+}
+
+
+.ferramenta{
+    width: 25%;
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 140%;
+    transition: 500ms;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.ferramenta:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.ferramenta img{
+    width: 75%;
+}
