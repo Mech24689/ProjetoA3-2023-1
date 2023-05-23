@@ -120,3 +120,31 @@ input:focus{
     transform: scale(1.2);
     cursor: pointer;
 }
+
+                                            /* responsividade */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        height: 86.7vh;
+    }
+
+    .container{
+        width: 80%;
+        gap: 0;
+        grid-template-rows: 18% auto 13%;
+    }
+
+    .background-login{
+        height: 100vh;
+    }
+
+    input{
+        width: 95%;
+        font-size: 150%;
+    }
+
+    .titleLoginSenha{
+        width: 50%;
+        height: 30%;
+    }
+}
