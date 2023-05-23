@@ -14,13 +14,13 @@ const medicos =
     ['Dr. Joseph Clark', 'Psiquiatria', 'Tarde', 'https://st2.depositphotos.com/4431055/7495/i/600/depositphotos_74950191-stock-photo-men-latin-american-and-hispanic.jpg'],
     ['Dra. Grey', 'Psicologia', 'Manhã', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZvjpSJWmsIny_gfUAiNYvoopKafrYHFu8gUkaJJ0bHvXEoldAOCvbD_nEyCroMDkqxao&usqp=CAU'],
     ['Dr. Roberto Martins', 'Terapia', 'Noite', 'https://img.r7.com/images/dr-bacteria-29032020120732221?dimensions=460x305'],
+    ['Dr. Eddie Murphy', 'Psicologia', 'Manhã', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzPYX6Y6yMQO3tFHMPmFGtVzeT7-50uG7L89P2bKCVxzR7krHjBwelIoX4Kmyw_7fdBvo&usqp=CAU'],
     ['Dr. Daniel Martin', 'Terapia', 'Tarde', 'https://media.istockphoto.com/id/1090878494/pt/foto/close-up-portrait-of-young-smiling-handsome-man-in-blue-polo-shirt-isolated-on-gray-background.jpg?s=612x612&w=0&k=20&c=TnFoCdhgw_ksGZTkVjyZDqbQk9NcMI4nrZ3MvN6il_s='],
     ['Dr. Clark Kent', 'Psicologia', 'Manhã', 'https://pbs.twimg.com/media/EdfBto6XkAA9cSB.jpg:large'],
     ['Dra. Lily Anderson', 'Psicologia', 'Tarde', ''],
+    ['Dr. Sócrates', 'Psiquiatria', 'Manhã', 'https://s.glbimg.com/es/ge/f/300x230/2011/08/20/socrates-1979-medico-ae397.jpg'],
     ['Dr. Stephen Strange', 'Terapia', 'Noite', 'https://hips.hearstapps.com/hmg-prod/images/cumberbatch_179663904jpg.jpg'],
-    ['Dra. Madison Johnson', 'Psicologia', 'Tarde', ''],
-    ['Dr. Aiden Thompson', 'Psiquiatria', 'Manhã', ''],
-    ['Dra. Grace Wilson', 'Psicologia', 'Manhã', '']
+    ['Dra. Madison Johnson', 'Psicologia', 'Tarde', '']
   ];
   
 
