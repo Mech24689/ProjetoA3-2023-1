@@ -93,3 +93,30 @@ body{
     transform: scale(1.2);
     cursor: pointer;
 }
+
+                                            /* responsividade */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        height: 93vh;
+    }
+
+    #voltar{
+        width: 20%;
+        height: 6%;
+    }
+
+    #title{
+        font-size: 170%;
+    }
+
+    #areaText{
+        width: 72%;
+        height: 65%;
+    }
+
+    #salvar{
+        height: 6%;
+        width: 20%;
+    }
+}
