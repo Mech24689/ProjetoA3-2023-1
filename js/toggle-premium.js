@@ -7,7 +7,7 @@ tipo = localStorage.getItem(key)
 
 //variaveis do siistema de mudança de titulo
 titleSection1 = document.querySelector('#title-section1')
-titles = ["Olá amigo.", "Seja bem-vindo.", "aqui você pode encontrar a paz e tranquilidade.", "aproveite bastante nossas ferramentas, pois eles são gratuitos."]
+titles = ["Olá amigo.", "Seja bem-vindo.", "Aqui você pode encontrar a paz e tranquilidade.", "Aproveite nossos audios ZEN e diário gratuitamente."]
 idtitles = 0
 
 //Sistema de login
