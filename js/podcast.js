@@ -71,6 +71,10 @@ inputRange.addEventListener('input', ()=>{
     audio.currentTime = inputRange.value
 })
 
+inputRange.addEventListener('change', ()=>{
+    audio.play()
+})
+
 audio.addEventListener("ended", ()=>{
     audio.currentTime = 0
     inputRange.value = audio.currentTime
